@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 140" fill="none">
+  <defs>
+    <linearGradient id="cg" x1="12" y1="8" x2="108" y2="132" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#74B73E"/>
+      <stop offset=".5" stop-color="#1E97A6"/>
+      <stop offset="1" stop-color="#1C3C5E"/>
+    </linearGradient>
+  </defs>
+  <!-- Pin (contour) -->
+  <path d="M60 133 C 33 100 15 80 15 53 A 45 45 0 1 1 105 53 C 105 80 87 100 60 133 Z"
+        stroke="url(#cg)" stroke-width="8" stroke-linejoin="round"/>
+  <!-- Skyline -->
+  <g fill="#1C3C5E">
+    <rect x="35" y="49" width="9" height="25" rx="1"/>
+    <rect x="46" y="39" width="9" height="35" rx="1"/>
+    <rect x="57" y="28" width="11" height="46" rx="1"/>
+    <rect x="70" y="43" width="9" height="31" rx="1"/>
+    <rect x="81" y="53" width="8" height="21" rx="1"/>
+    <rect x="61.5" y="21" width="2.2" height="8"/>
+  </g>
+  <g fill="#DCEFEA" opacity=".85">
+    <rect x="60" y="34" width="2" height="3"/><rect x="64" y="34" width="2" height="3"/>
+    <rect x="60" y="41" width="2" height="3"/><rect x="64" y="41" width="2" height="3"/>
+    <rect x="49" y="45" width="2" height="3"/><rect x="72" y="49" width="2" height="3"/>
+  </g>
+  <!-- Cloche -->
+  <circle cx="60" cy="84" r="19" fill="#ffffff"/>
+  <path d="M60 73c-6 0-10 4-10 10 0 5-1 7-3 9h26c-2-2-3-4-3-9 0-6-4-10-10-10z" fill="url(#cg)"/>
+  <path d="M56 95a4 4 0 0 0 8 0" fill="url(#cg)"/>
+  <path d="M45 79a8 8 0 0 1 0 10M41 76a13 13 0 0 1 0 16" stroke="url(#cg)" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M75 79a8 8 0 0 0 0 10M79 76a13 13 0 0 0 0 16" stroke="url(#cg)" stroke-width="2.5" stroke-linecap="round"/>
+</svg>
