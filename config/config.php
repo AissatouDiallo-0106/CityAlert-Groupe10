@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 return [
     'app' => [
-        'name'     => 'CityAlert',
+        'name'     => ' CITYalert-groupe10',
         'env'      => 'dev',
         'timezone' => 'Africa/Dakar',
     ],
